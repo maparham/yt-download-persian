@@ -53,12 +53,12 @@ Now, you can run the script as follows:
 
 - Download and burn subtitles without resizing:
   ```bash
-  ./ytdownload.sh "<youtube_url>"
+  ./ytdownload.sh "https://www.youtube.com/watch?v=LIIc-zkP6w0"
   ```
 
 - Download and burn subtitles with resizing:
   ```bash
-  ./ytdownload.sh -r "<youtube_url>"
+  ./ytdownload.sh -r "https://www.youtube.com/watch?v=LIIc-zkP6w0"
   ```
 
 ### Notes:
