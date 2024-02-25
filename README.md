@@ -43,22 +43,22 @@ chmod +x ytdownload.sh
 Now, you can run the script as follows:
 
 ```bash
-./ytdownload.sh [-r] <youtube_url>
+./ytdownload.sh [-r] "<youtube_url>"
 ```
 
-- Replace `<youtube_url>` with the URL of the YouTube video you want to download.
+- Replace `"<youtube_url>"` with the URL of the YouTube video you want to download.
 - Optionally, you can include the `-r` flag to reduce the size of the output video.
 
 ### Example Usage:
 
 - Download and burn subtitles without resizing:
   ```bash
-  ./ytdownload.sh <youtube_url>
+  ./ytdownload.sh "<youtube_url>"
   ```
 
 - Download and burn subtitles with resizing:
   ```bash
-  ./ytdownload.sh -r <youtube_url>
+  ./ytdownload.sh -r "<youtube_url>"
   ```
 
 ### Notes:
